@@ -1,0 +1,27 @@
+{
+    "name": "user-auth-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "express": "^4.19.2",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^8.5.1"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.7.0",
+        "eslint": "^9.7.0",
+        "eslint-plugin-vue": "^9.27.0",
+        "globals": "^15.8.0",
+        "nodemon": "^3.1.4"
+    }
+}
